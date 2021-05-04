@@ -1,0 +1,35 @@
+body {
+    background-color: #FFFFF2;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+#carousel_slide_one {
+
+    background-image: url("../img/carousel-one.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+
+#example li:nth-child(2) {
+    color: red;
+    font-size: 30px;
+}
+
+#example {
+    list-style: none;
+}
+
+#example li::after {
+    content: '\f206';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-left: 20px;
+}
